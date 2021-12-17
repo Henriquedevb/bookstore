@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	background-color: #85c1e9;
+	color: #34495e;
+
+	h1 {
+		cursor: pointer;
+	}
+}
+
+.ulStyle {
+	li {
+		list-style: none;
+	}
+
+	li:hover {
+		cursor: pointer;
+	}
+}

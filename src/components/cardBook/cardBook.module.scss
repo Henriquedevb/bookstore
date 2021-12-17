@@ -1,0 +1,32 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	width: 20vh;
+	height: 250px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	margin: 10px;
+
+	background-color: white;
+
+	.updateButton {
+		padding: 0.3rem 1rem;
+		background: #f1c40f !important;
+	}
+	.deleteButton {
+		padding: 0.3rem 1rem;
+		background: #e74c3c !important;
+	}
+
+	button:hover {
+		transform: scale(1.05);
+	}
+}
+
+.card:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
